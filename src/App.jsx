@@ -1,22 +1,12 @@
-import TextPerson from "./componentes/TextPerson"
-import TextSize from "./componentes/TextSize"
-import TextColor from "./componentes/TextColor"
-
-
+import Layout from "./Pages/Layout"
 
 function App() {
-
-
   return (
-   <>
-   <div className="container">
-    <TextSize/>
-
-    <TextPerson/>
-
-    <TextColor/>
-   </div>
-   </>
+    <>
+      <div className='container'>
+       <Layout/>
+      </div>
+    </>
   )
 }
 
